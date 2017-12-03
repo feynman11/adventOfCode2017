@@ -12,13 +12,19 @@ public class adventOfCode {
 		Scanner scanner = new Scanner(System.in);
 		try {
 			input = scanner.nextInt();
-			
-			switch(input) {
-			case 1 : new day1().go();
-			case 2 : new day2().go();
-			default : System.out.println("Day entered not valid");
-			}	
-			
+
+			switch (input) {
+			case 1:
+				new day1().go();
+				break;
+			case 2:
+				new day2().go();
+				break;
+			default:
+				System.out.println("Day entered not valid");
+				break;
+			}
+
 		} catch (InputMismatchException e) {
 			System.out.println("The day must be an integer");
 			System.exit(0);
