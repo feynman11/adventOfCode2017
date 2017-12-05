@@ -26,6 +26,9 @@ public class adventOfCode {
 			case 4:
 				new day4().go();
 				break;
+			case 5:
+				new day5().go();
+				break;
 			default:
 				System.out.println("Day entered not valid");
 				break;
