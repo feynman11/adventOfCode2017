@@ -4,7 +4,6 @@ public class day5 {
 
 	public void go() {
 		System.out.println("Welcolme to Advent of Code - Day 5: A Maze of Twisty Trampolines, All Alike");
-		System.out.println("Please enter your puzzle input:");
 		String input = getInput();
 		String[] offsetString = input.split("\\s");
 		int[] offsets = new int[offsetString.length];
@@ -17,8 +16,6 @@ public class day5 {
 
 		System.out.println("Number of steps for part1 is " + stepsPart1);
 		System.out.println("Number of steps for part2 is " + stepsPart2);
-		// Part 2
-		// https://oeis.org/A141481
 
 	}
 
